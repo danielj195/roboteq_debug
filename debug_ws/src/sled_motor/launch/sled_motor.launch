@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--
+ABB IRB 4600 launch, establishing EGM connection, and control signal topic
+-->
+<launch>
+  <node pkg="sled_motor" type="sled_motor_node" name="sled_motor" output="screen">
+  </node>
+</launch>
